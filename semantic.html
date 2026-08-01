@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-size: 30px; text-align: center;">OSS CLUB</h1>
+    <div>
+        <p style="font-size: x-large; text-align: center;"><u>"In the middle of difficulty lies opportunity."</u></p>
+    </div>
+    <div style="font-size: x-large; text-align: center;">
+        <p style="font-size: x-large; text-align: center;">This Class is informative and helpful for students to learn new things. It is a great opportunity for students to learn about open source software and its benefits. The class is designed to provide students with the knowledge and skills they need to succeed in the field of open source software development. Students will learn about the different types of <span style="color: magenta;">open source software</span> , how to contribute to open source projects, and how to use open source tools and technologies. The class will also cover topics such as version control, collaboration, and community building. Overall, this class is a valuable resource for students who are interested in pursuing a career in open source software development.</p>
+    </div>
+    <style>
+        .glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(183, 68, 68, 0.2);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 40px 64px 0 rgba(234, 0, 0, 0.1);
+  color: #fff;
+}
+        h1 {
+            width: 100%;
+            color: rgb(0, 0, 255);
+            background-color: rgb(66, 102, 77);
+            border: 10px groove rgb(137, 52, 52);
+            border-radius: 10px;
+            border-width: 10px;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p {
+            color: #6e2a2a;
+            background-color: rgb(52, 107, 127);
+            /* view port height/width (vh/vw)*/
+        }
+        .box{
+            width: 2050px;
+            height: 100px;
+            background-color: rgb(55, 159, 197);
+        }
+        #para {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+        *{
+            background-color: rgb(52, 107, 127);
+            box-sizing: border-box;
+        }        
+    </style>
+    <div class="glass-card box">
+        <p id="para">This is a paragraph.</p>
+        <p style="font-size: x-large; text-align: center;">CSS selectors are used to target and style specific HTML elements on a webpage. They are categorized into five main types.
+            <br>
+            1. Simple SelectorsSimple selectors target elements directly based on their name, ID, class, or universal presence.
+            <br>
+            Universal Selector (*): Matches every single element on the page.
+            <br>
+            Element / Type Selector (p, div): Targets all HTML tags of that specific name.
+            <br>
+            Class Selector (.classname): Targets all elements containing that specific class attribute.
+            <br>
+            ID Selector (#idname): Targets a single, unique element with that specific id attribute.
+            <br>
+            2. Combinator SelectorsCombinators use symbols to select elements based on their exact structural relationship to other elements in the HTML tree.
+            <br>
+            Descendant Selector (space): Matches all nested target elements inside a parent, regardless of depth.
+            <br>
+            Child Selector (>): Matches only the immediate, direct children of a parent element.
+            <br>
+            Adjacent Sibling Selector (+): Matches an element that directly follows another element at the same level.
+            <br>
+            General Sibling Selector (~): Matches all sibling elements that follow a specified element.
+            <br>
+            3. Attribute SelectorsThese selectors match elements if they contain a specific HTML attribute or attribute value.
+            <br>
+            Presence ([disabled]): Matches any element carrying the specified attribute.
+            <br>
+            Exact Value ([type="text"]): Matches elements with the exact attribute value.
+            <br>
+            Substring ([href*="login"]): Matches elements where the attribute contains a specific phrase anywhere within it.
+            <br>
+            4. Pseudo-class SelectorsPseudo-classes use a colon (:) to target elements only when they enter a specific state or condition.
+            <br>
+            User Interaction (:hover, :focus): Styles an element when a user interacts with it.Structural (:first-child, :nth-child(2)): Styles elements based on their order among sibling elements.Negation (:not(.active)): Excludes specific elements from being styled.
+            <br>
+            5. Pseudo-elements SelectorsPseudo-elements use double colons (::) to target and style a specific, sub-component part of an element.
+            <br>
+            Generated Content (::before, ::after): Inserts decorative content before or after the element's actual content
+            <br>
+            .Text Selection (::first-line, ::placeholder): Styles only the first line of a paragraph or the placeholder text inside an input field.</p>
+    </div>
+</body>
+</html>
